@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Curso.ComercioElectronico.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Curso.ComercioElectronico.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Curso.ComercioElectronico.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Curso.ComercioElectronico.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Curso.ComercioElectronico.Domain/Curso.ComercioElectronico.Domain.csproj",
+      "msbuildProject": "../Curso.ComercioElectronico.Domain/Curso.ComercioElectronico.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Curso.ComercioElectronico.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\chalbarr\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\chalbarr\\OneDrive - Banco Pichincha C.A\\Documentos\\CBanco\\Nueva carpeta\\src\\Curso.ComercioElectronico.Application\\Curso.ComercioElectronico.Application.csproj",
+      "projectName": "Curso.ComercioElectronico.Application",
+      "projectPath": "C:\\Users\\chalbarr\\OneDrive - Banco Pichincha C.A\\Documentos\\CBanco\\Nueva carpeta\\src\\Curso.ComercioElectronico.Application\\Curso.ComercioElectronico.Application.csproj",
+      "packagesPath": "C:\\Users\\chalbarr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\chalbarr\\OneDrive - Banco Pichincha C.A\\Documentos\\CBanco\\Nueva carpeta\\src\\Curso.ComercioElectronico.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\chalbarr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\chalbarr\\OneDrive - Banco Pichincha C.A\\Documentos\\CBanco\\Nueva carpeta\\src\\Curso.ComercioElectronico.Domain\\Curso.ComercioElectronico.Domain.csproj": {
+              "projectPath": "C:\\Users\\chalbarr\\OneDrive - Banco Pichincha C.A\\Documentos\\CBanco\\Nueva carpeta\\src\\Curso.ComercioElectronico.Domain\\Curso.ComercioElectronico.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
